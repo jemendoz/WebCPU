@@ -209,7 +209,7 @@ def print_memory() -> rx.Component:
             rx.separator(),
             rx.foreach(
                 State.mem,
-                lambda elem: rx.text(f"Address {elem.to("list")[0]}: {elem.to("list")[1]}")
+                lambda elem: rx.text(f"Address {elem.to('list')[0]}: {elem.to('list')[1]}")
             )
         ),
         scrollbars="vertical",

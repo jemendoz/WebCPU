@@ -1,5 +1,5 @@
 
-if exists .venv\ (
+if exist .venv\ (
     .venv\Scripts\activate.bat
 ) else (
     python -m venv .venv
